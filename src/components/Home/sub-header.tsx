@@ -13,7 +13,7 @@ export default function SubHeader() {
         <div className="flex gap-3 items-center">
           <div className="flex items-center gap-x-2">
             <Label className="md:text-lg" htmlFor="airplane-mode">تحليل عام</Label>
-            <Switch checked dir="ltr" id="airplane-mode" />
+            <Switch defaultChecked={true} dir="ltr" id="airplane-mode" />
           </div>
           <div className="flex items-center gap-x-2 p-2 text-gray-500 text-sm !bg-white rounded-full">
             <svg width={14} height={14} viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
