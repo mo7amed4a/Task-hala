@@ -11,19 +11,17 @@ export default function Home() {
   return (
     <div className="space-y-7">
       <SubHeader />
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div className="md:col-span-2">
+      <div className="grid lg:grid-cols-3 gap-4">
+        <div className="lg:col-span-2">
           <ChartOne />
         </div>
         <ProductsCard />
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid lg:grid-cols-3 gap-4">
         <RadialChart />
         <ChartArea />
         <ChartBar />
-      </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div className="md:col-span-2">
+        <div className="lg:col-span-2">
           <CardTable />
         </div>
         <ChartLine />
